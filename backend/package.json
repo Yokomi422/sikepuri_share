@@ -6,16 +6,19 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "pnpm exec nodemon --"
+    "dev": "pnpm exec nodemon",
+    "build": "pnpm exec tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.21.0",
     "nodemon": "^3.1.7",
     "typescript": "^5.6.2"
   },
   "devDependencies": {
+    "@types/express": "^5.0.0",
     "ts-node": "^10.9.2"
   }
 }
